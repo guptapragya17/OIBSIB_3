@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: azure;
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 350px;
+    background-color:#851885;
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label {
+    font-size: 30px;
+    line-height: 88px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+
+}
+.heading{
+    text-transform: uppercase;
+    margin-top: 40px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    
+}
+.heading img{
+    height: 80px;
+    margin-top: -20px;
+}
+
+
+#temp {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 140px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 130px;
+    border-radius: 6px;
+    margin: 30px 0 20px 0;
+    font-size: 25px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(234, 117, 200);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+}
